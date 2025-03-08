@@ -178,7 +178,7 @@
             <h1 class="text-center mb-12 font-semibold text-3xl sm:text-4xl lg:text-5xl">Latest News</h1>
             <!-- card section -->
             <div
-                class="grid justify-items-center grid-cols-1 gap-5 md:grid-cols-2 md:justify-between lg:grid-cols-3 lg:justify-around lg:gap-6">
+                class="mx-6 grid grid-cols-1 gap-5 md:grid-cols-2 md:justify-between lg:grid-cols-3 lg:justify-around lg:gap-6">
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-5 py-5">
                         <img src="images/others/latest1.png" alt="Ducati XDIAVEL S-73" class="rounded-lg" />
@@ -233,7 +233,7 @@
             <h1 class="mb-12 font-semibold text-3xl sm:text-4xl lg:text-5xl">Happy <span
                     class="text-custom-btn-primary">Clients says</span></h1>
             <div
-                class="grid justify-items-center grid-cols-1 gap-5 md:grid-cols-2 md:justify-between lg:grid-cols-3 lg:justify-around lg:gap-6">
+                class="mx-6 grid grid-cols-1 gap-5 md:grid-cols-2 md:justify-between lg:grid-cols-3 lg:justify-around lg:gap-6">
                 <!-- review 1 -->
                 <div class="border rounded-xl py-10 px-9 bg-base-100 shadow-xl">
                     <div class="avatar pb-8">
@@ -306,10 +306,10 @@
             </div>
         </div>
         <!-- FAQ section -->
-        <div class="my-20 content-center">
+        <div class="mt-20 mb-40 content-center">
             <h1 class="text-center mb-12 font-semibold text-2xl md:text-4xl lg:text-5xl">Frequently Asked <span
                     class="text-custom-btn-primary">Questions</span></h1>
-            <div class="md:flex lg:flex md:justify-between lg:justify-around md:gap-20 lg:gap-24">
+            <div class="mx-6 md:flex lg:flex md:justify-between lg:justify-around md:gap-20 lg:gap-24">
                 <!-- image section -->
                 <div class="max-w-[446px]">
                     <img src="images/others/faq.png" alt="FAQ icons">
@@ -334,7 +334,8 @@
                     <div>
                         <!-- collapse 2 -->
                         <div tabindex="0" class="collapse collapse-arrow bg-base-100 border-base-300 border my-4">
-                            <div class="collapse-title font-medium text-[1.25rem]">How can I tell if my helmet is old and I need a 
+                            <div class="collapse-title font-medium text-[1.25rem]">How can I tell if my helmet is old
+                                and I need a
                                 new one?</div>
                             <div class="collapse-content">
                                 Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
@@ -348,7 +349,8 @@
                     <div>
                         <!-- collapse 3 -->
                         <div tabindex="0" class="collapse collapse-arrow bg-base-100 border-base-300 border my-4">
-                            <div class="collapse-title font-medium text-[1.25rem]">My bike has been in storage is it safe to ride?</div>
+                            <div class="collapse-title font-medium text-[1.25rem]">My bike has been in storage is it
+                                safe to ride?</div>
                             <div class="collapse-content">
                                 Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
                                 laws.
@@ -361,7 +363,8 @@
                     <div>
                         <!-- collapse 3 -->
                         <div tabindex="0" class="collapse collapse-arrow bg-base-100 border-base-300 border my-4">
-                            <div class="collapse-title font-medium text-[1.25rem]">What rules should I follow when riding my bike?</div>
+                            <div class="collapse-title font-medium text-[1.25rem]">What rules should I follow when
+                                riding my bike?</div>
                             <div class="collapse-content">
                                 Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
                                 laws.
@@ -371,9 +374,48 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer></footer>
+    <footer class="md:flex bg-neutral text-white p-5 md:px-20 md:py-12 justify-between">
+        <div class="md:w-2/4">
+            <div>
+                <a href="#" class="mr-12">Download</a>
+                <a href="#">License</a>
+            </div>
+            <div class="grid grid-cols-3 md:grid-cols-6 gap-4 md:gap-8 mt-2">
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Careers</a>
+                <a href="#">Help</a>
+                <a href="#">PrivacyPolicy</a>
+            </div>
+            <div class="invisible sm:visible mt-8">
+                <h5>&copy 2020 bike. All rights reserved</h5>
+            </div>
+        </div>
+        <div>
+            <div class="md:w-2/4">
+                <h6 class="font-bold mb-4">Get in the App</h6>
+                <div class="grid gap-2">
+                    <a>
+                        <img src="images/others/ios.png" alt="" class="w-2/5 md:w-full">
+                    </a>
+                    <a>
+                        <img src="images/others/android.png" alt="" class="w-2/5 md:w-full">
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="mx-auto text-center md:invisible">
+                <h5>&copy 2020 bike. All rights reserved</h5>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
